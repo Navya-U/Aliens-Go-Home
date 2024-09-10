@@ -6,7 +6,7 @@ import * as Auth0 from 'auth0-web';
 import io from 'socket.io-client';
 
 Auth0.configure({
-  domain: 'dev-ks44a6ctkb0zmsyt.us.auth0.com',
+  domain: 'DOMAIN', // I am using AUTH0 domain & client
   clientID: 'CLIENT_ID',
   redirectUri: 'http://localhost:3000/',
   responseType: 'token id_token',
