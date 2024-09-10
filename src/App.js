@@ -7,7 +7,7 @@ import io from 'socket.io-client';
 
 Auth0.configure({
   domain: 'dev-ks44a6ctkb0zmsyt.us.auth0.com',
-  clientID: 'sCPATTPS6XCZjTQrNF8emJ5vrdlKheiF',
+  clientID: 'CLIENT_ID',
   redirectUri: 'http://localhost:3000/',
   responseType: 'token id_token',
   scope: 'openid profile manage:points',
